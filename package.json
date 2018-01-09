@@ -1,0 +1,30 @@
+{
+  "name": "za-axios",
+  "version": "1.0.0",
+  "description": "one ajax request plugin tool",
+  "main": "./src/index.js",
+  "scripts": {
+    "server:test": "NODE_ENV=test && mocha --delay -t 5000 test/serverTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://yezhanwang@gitlab.zhonganonline.com/open-FED/za-axios.git"
+  },
+  "keywords": [
+    "javascript",
+    "xmlhttprequest",
+    "nodejs",
+    "axios"
+  ],
+  "author": "zhanwangye",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "query-string": "^5.0.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
